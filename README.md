@@ -12,17 +12,17 @@ MySQL root password: zabbix
 
 
 add snmp package to Zabbix server
-=================================
+---------------------------------
 
-# apt-get install snmp
+$ apt-get install snmp
 
 
 
 
 snmp walk 
-==========
 
-# snmpwalk -v2c -c <string> <IP of ZabbixServer>
+
+$ snmpwalk -v2c -c <string> <IP of ZabbixServer>
 
 
 ```
