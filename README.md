@@ -17,7 +17,7 @@ add snmp package to Zabbix server
 apt-get install snmp
 
 
-
+-------------------------------------------------------------------
 ```
 
 Cisco Router commands
