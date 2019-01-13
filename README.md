@@ -28,8 +28,8 @@ snmp-server host <IP of ZabbixServer> version 2c public udp-port 161
 
 
 
-snmp walk 
----------
+snmp walk from Zabbix Server
+----------------------------
 
-snmpwalk -v2c -c <string> <IP of ZabbixServer>
+snmpwalk -v2c -c <string> <IP of router/switch>
 
