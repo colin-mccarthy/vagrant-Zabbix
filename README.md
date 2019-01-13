@@ -14,6 +14,6 @@ MySQL root password: zabbix
 
 Cisco Router commands
 
-snmp-server community public <string> ro | rw 
-snmp-server <host IP of ZabbixServer> version 2c public udp-port 161
+snmp-server community public <string> RO 
+snmp-server host <IP of ZabbixServer> version 2c public udp-port 161
 
