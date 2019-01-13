@@ -10,10 +10,27 @@ Note: you will want to set the mysql User to root and Password to zabbix to comp
 MySQL root password: zabbix
 
 
+
+add snmp package to Zabbix server
+=================================
+
+# apt-get install snmp
+
+
+
+
+snmp walk 
+==========
+
+# snmpwalk -v2c -c <string> <IP of ZabbixServer>
+
+
 ```
 
 Cisco Router commands
 
 snmp-server community public <string> RO 
 snmp-server host <IP of ZabbixServer> version 2c public udp-port 161
+
+
 
