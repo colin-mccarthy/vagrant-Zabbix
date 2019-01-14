@@ -17,6 +17,13 @@ add snmp package to Zabbix server
 apt-get install snmp
 
 
+
+upgrade to Zabbix 3.4
+----------------------
+
+https://www.testipenkki.com/?p=518
+
+
 -------------------------------------------------------------------
 ```
 
